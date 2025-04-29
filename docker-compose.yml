@@ -1,0 +1,17 @@
+
+
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: minhnguyen1489/streaming-platform:server
+    container_name: streaming-platform-server
+    ports:
+      - "1936:1935" # RTMP
+      - "8082:8080" # HLS
+    volumes:
+      - ./hls:/tmp/hls
+      - ./recordings:/var/recordings
+      - ./logs:/var/log
+    restart: unless-stopped

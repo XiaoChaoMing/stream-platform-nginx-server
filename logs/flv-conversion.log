@@ -1,0 +1,283 @@
+Fri Apr 18 01:46:22 UTC 2025: Starting FLV to MP4 conversion service
+Fri Apr 18 01:46:22 UTC 2025: Processing existing .flv files
+Fri Apr 18 01:46:22 UTC 2025: Converting /var/recordings/test-1744940290.flv to /var/recordings/test-1744940290.mp4
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.1 (Alpine 11.2.1_git20220219) 20220219
+  configuration: --prefix=/usr/local --enable-version3 --enable-gpl --enable-nonfree --enable-small --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libtheora --enable-libvorbis --enable-libopus --enable-libfdk-aac --enable-libass --enable-libwebp --enable-postproc --enable-libfreetype --enable-openssl --disable-debug --disable-doc --disable-ffplay --extra-libs='-lpthread -lm'
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, flv, from '/var/recordings/test-1744940290.flv':
+  Duration: 00:06:40.61, start: 0.033000, bitrate: 8924 kb/s
+  Stream #0:0: Audio: aac, 48000 Hz, stereo, fltp
+  Stream #0:1: Video: h264, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 62.50 fps, 60 tbr, 1k tbn
+Output #0, mp4, to '/var/recordings/test-1744940290.mp4':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 62.50 fps, 60 tbr, 16k tbn
+  Stream #0:1: Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+  Stream #0:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    frame= 7247 fps=0.0 q=-1.0 size=  131072kB time=00:02:00.76 bitrate=8891.0kbits/s speed= 242x    frame=14496 fps=14491 q=-1.0 size=  262656kB time=00:04:01.55 bitrate=8907.5kbits/s speed= 241x    frame=21980 fps=14647 q=-1.0 size=  398336kB time=00:06:06.29 bitrate=8908.6kbits/s speed= 244x    frame=24037 fps=14567 q=-1.0 Lsize=  436396kB time=00:06:40.59 bitrate=8924.1kbits/s speed= 243x    
+video:427820kB audio:7825kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.172434%
+Fri Apr 18 01:46:23 UTC 2025: Conversion successful. Removing original .flv file.
+Fri Apr 18 01:46:23 UTC 2025: Watching for new .flv files
+Fri Apr 18 02:07:40 UTC 2025: Starting FLV to MP4 conversion service
+Fri Apr 18 02:07:40 UTC 2025: Processing existing .flv files
+Fri Apr 18 02:07:40 UTC 2025: Converting /var/recordings/test-1744940792.flv to /var/recordings/test-1744940792.mp4
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.1 (Alpine 11.2.1_git20220219) 20220219
+  configuration: --prefix=/usr/local --enable-version3 --enable-gpl --enable-nonfree --enable-small --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libtheora --enable-libvorbis --enable-libopus --enable-libfdk-aac --enable-libass --enable-libwebp --enable-postproc --enable-libfreetype --enable-openssl --disable-debug --disable-doc --disable-ffplay --extra-libs='-lpthread -lm'
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, flv, from '/var/recordings/test-1744940792.flv':
+  Duration: 00:00:54.05, start: 0.033000, bitrate: 8913 kb/s
+  Stream #0:0: Audio: aac, 48000 Hz, stereo, fltp
+  Stream #0:1: Video: h264, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 62.50 fps, 60 tbr, 1k tbn
+Output #0, mp4, to '/var/recordings/test-1744940792.mp4':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 62.50 fps, 60 tbr, 16k tbn
+  Stream #0:1: Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+  Stream #0:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    frame= 3244 fps=0.0 q=-1.0 Lsize=   58805kB time=00:00:54.03 bitrate=8914.7kbits/s speed= 308x    
+video:57646kB audio:1056kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.174749%
+Fri Apr 18 02:07:40 UTC 2025: Conversion successful. Removing original .flv file.
+Fri Apr 18 02:07:40 UTC 2025: Watching for new .flv files
+Fri Apr 18 02:10:10 UTC 2025: Starting FLV to MP4 conversion service
+Fri Apr 18 02:10:10 UTC 2025: Processing existing .flv files
+Fri Apr 18 02:10:10 UTC 2025: Watching for new .flv files
+Sat Apr 19 05:46:32 UTC 2025: Starting FLV to MP4 conversion service
+Sat Apr 19 05:46:32 UTC 2025: Processing existing .flv files
+Sat Apr 19 05:46:32 UTC 2025: Watching for new .flv files
+Mon Apr 21 02:20:46 UTC 2025: Starting FLV to MP4 conversion service
+Mon Apr 21 02:20:46 UTC 2025: Processing existing .flv files
+Mon Apr 21 02:20:46 UTC 2025: Watching for new .flv files
+Tue Apr 22 09:00:05 UTC 2025: Starting FLV to MP4 conversion service
+Tue Apr 22 09:00:05 UTC 2025: Processing existing .flv files
+Tue Apr 22 09:00:05 UTC 2025: Watching for new .flv files
+Tue Apr 22 10:38:42 UTC 2025: Starting FLV to MP4 conversion service
+Tue Apr 22 10:38:42 UTC 2025: Processing existing .flv files
+Tue Apr 22 10:38:42 UTC 2025: Converting /var/recordings/test-1745317333.flv to /var/recordings/test-1745317333.mp4
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.1 (Alpine 11.2.1_git20220219) 20220219
+  configuration: --prefix=/usr/local --enable-version3 --enable-gpl --enable-nonfree --enable-small --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libtheora --enable-libvorbis --enable-libopus --enable-libfdk-aac --enable-libass --enable-libwebp --enable-postproc --enable-libfreetype --enable-openssl --disable-debug --disable-doc --disable-ffplay --extra-libs='-lpthread -lm'
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, flv, from '/var/recordings/test-1745317333.flv':
+  Duration: 00:06:30.84, start: 0.033000, bitrate: 8925 kb/s
+  Stream #0:0: Audio: aac, 48000 Hz, stereo, fltp
+  Stream #0:1: Video: h264, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 62.50 fps, 60 tbr, 1k tbn
+Output #0, mp4, to '/var/recordings/test-1745317333.mp4':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 62.50 fps, 60 tbr, 16k tbn
+  Stream #0:1: Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+  Stream #0:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame= 7657 fps=0.0 q=-1.0 size=  138496kB time=00:02:07.59 bitrate=8891.9kbits/s speed= 255x    
+Enter command: <target>|all <time>|-1 <command>[ <argument>]
+
+Parse error, at least 3 arguments were expected, only 1 given in string 'ordings/test-1745315635.flv'
+frame=17948 fps=17948 q=-1.0 size=  325120kB time=00:04:59.11 bitrate=8904.2kbits/s speed= 299x    frame=23451 fps=17849 q=-1.0 Lsize=  425802kB time=00:06:30.82 bitrate=8925.1kbits/s speed= 297x    
+video:417437kB audio:7633kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.172347%
+Tue Apr 22 10:38:44 UTC 2025: Conversion successful. Removing original .flv file.
+Tue Apr 22 10:38:44 UTC 2025: Converting ecordings/test-1745315704.flv to ecordings/test-1745315704.mp4
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.1 (Alpine 11.2.1_git20220219) 20220219
+  configuration: --prefix=/usr/local --enable-version3 --enable-gpl --enable-nonfree --enable-small --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libtheora --enable-libvorbis --enable-libopus --enable-libfdk-aac --enable-libass --enable-libwebp --enable-postproc --enable-libfreetype --enable-openssl --disable-debug --disable-doc --disable-ffplay --extra-libs='-lpthread -lm'
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+ecordings/test-1745315704.flv: No such file or directory
+Tue Apr 22 10:38:44 UTC 2025: Error converting ecordings/test-1745315704.flv
+Tue Apr 22 10:38:44 UTC 2025: Converting /var/recordings/test-1745316719.flv to /var/recordings/test-1745316719.mp4
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.1 (Alpine 11.2.1_git20220219) 20220219
+  configuration: --prefix=/usr/local --enable-version3 --enable-gpl --enable-nonfree --enable-small --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libtheora --enable-libvorbis --enable-libopus --enable-libfdk-aac --enable-libass --enable-libwebp --enable-postproc --enable-libfreetype --enable-openssl --disable-debug --disable-doc --disable-ffplay --extra-libs='-lpthread -lm'
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, flv, from '/var/recordings/test-1745316719.flv':
+  Duration: 00:03:44.12, start: 0.033000, bitrate: 8923 kb/s
+  Stream #0:0: Audio: aac, 48000 Hz, stereo, fltp
+  Stream #0:1: Video: h264, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 62.50 fps, 60 tbr, 1k tbn
+Output #0, mp4, to '/var/recordings/test-1745316719.mp4':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 62.50 fps, 60 tbr, 16k tbn
+  Stream #0:1: Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+  Stream #0:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    frame= 1076 fps=0.0 q=-1.0 size=   19200kB time=00:00:17.89 bitrate=8787.7kbits/s speed=35.8x    
+Enter command: <target>|all <time>|-1 <command>[ <argument>]
+
+Parse error, at least 3 arguments were expected, only 1 given in string 'ordings/test-1745316966.flv'
+frame= 2084 fps=2078 q=-1.0 size=   37632kB time=00:00:34.68 bitrate=8887.3kbits/s speed=34.6x    frame= 3086 fps=2052 q=-1.0 size=   55808kB time=00:00:51.39 bitrate=8896.0kbits/s speed=34.2x    frame= 3933 fps=1961 q=-1.0 size=   71168kB time=00:01:05.51 bitrate=8898.9kbits/s speed=32.7x    frame= 4951 fps=1973 q=-1.0 size=   89600kB time=00:01:22.47 bitrate=8899.8kbits/s speed=32.9x    frame= 7502 fps=2493 q=-1.0 size=  135936kB time=00:02:05.01 bitrate=8907.8kbits/s speed=41.5x    frame=11501 fps=3277 q=-1.0 size=  208384kB time=00:03:11.65 bitrate=8906.9kbits/s speed=54.6x    frame=13448 fps=3584 q=-1.0 Lsize=  244104kB time=00:03:44.08 bitrate=8923.8kbits/s speed=59.7x    
+video:239306kB audio:4377kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.172712%
+Tue Apr 22 10:38:48 UTC 2025: Conversion successful. Removing original .flv file.
+Tue Apr 22 10:38:48 UTC 2025: Watching for new .flv files
+Wed Apr 23 06:52:30 UTC 2025: Starting FLV to MP4 conversion service
+Wed Apr 23 06:52:30 UTC 2025: Processing existing .flv files
+Wed Apr 23 06:52:30 UTC 2025: Converting /var/recordings/test-1745315635.flv to /var/recordings/test-1745315635.mp4
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.1 (Alpine 11.2.1_git20220219) 20220219
+  configuration: --prefix=/usr/local --enable-version3 --enable-gpl --enable-nonfree --enable-small --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libtheora --enable-libvorbis --enable-libopus --enable-libfdk-aac --enable-libass --enable-libwebp --enable-postproc --enable-libfreetype --enable-openssl --disable-debug --disable-doc --disable-ffplay --extra-libs='-lpthread -lm'
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, flv, from '/var/recordings/test-1745315635.flv':
+  Duration: 00:00:16.95, start: 0.033000, bitrate: 8883 kb/s
+  Stream #0:0: Audio: aac, 48000 Hz, stereo, fltp
+  Stream #0:1: Video: h264, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 62.50 fps, 60 tbr, 1k tbn
+Output #0, mp4, to '/var/recordings/test-1745315635.mp4':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 62.50 fps, 60 tbr, 16k tbn
+  Stream #0:1: Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+  Stream #0:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    frame= 1018 fps=0.0 q=-1.0 Lsize=   18381kB time=00:00:16.93 bitrate=8889.7kbits/s speed=  53x    
+video:18017kB audio:331kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.180659%
+Wed Apr 23 06:52:31 UTC 2025: Conversion successful. Removing original .flv file.
+Wed Apr 23 06:52:31 UTC 2025: Converting /recordings/test-1745315704.flv to /recordings/test-1745315704.mp4
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.1 (Alpine 11.2.1_git20220219) 20220219
+  configuration: --prefix=/usr/local --enable-version3 --enable-gpl --enable-nonfree --enable-small --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libtheora --enable-libvorbis --enable-libopus --enable-libfdk-aac --enable-libass --enable-libwebp --enable-postproc --enable-libfreetype --enable-openssl --disable-debug --disable-doc --disable-ffplay --extra-libs='-lpthread -lm'
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+/recordings/test-1745315704.flv: No such file or directory
+Wed Apr 23 06:52:31 UTC 2025: Error converting /recordings/test-1745315704.flv
+Wed Apr 23 06:52:31 UTC 2025: Converting /var/recordings/test-1745316966.flv to /var/recordings/test-1745316966.mp4
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.1 (Alpine 11.2.1_git20220219) 20220219
+  configuration: --prefix=/usr/local --enable-version3 --enable-gpl --enable-nonfree --enable-small --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libtheora --enable-libvorbis --enable-libopus --enable-libfdk-aac --enable-libass --enable-libwebp --enable-postproc --enable-libfreetype --enable-openssl --disable-debug --disable-doc --disable-ffplay --extra-libs='-lpthread -lm'
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, flv, from '/var/recordings/test-1745316966.flv':
+  Duration: 00:06:02.23, start: 0.033000, bitrate: 8927 kb/s
+  Stream #0:0: Audio: aac, 48000 Hz, stereo, fltp
+  Stream #0:1: Video: h264, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 62.50 fps, 60 tbr, 1k tbn
+Output #0, mp4, to '/var/recordings/test-1745316966.mp4':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 62.50 fps, 60 tbr, 16k tbn
+  Stream #0:1: Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+  Stream #0:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    frame= 9350 fps=0.0 q=-1.0 size=  169216kB time=00:02:35.81 bitrate=8896.4kbits/s speed= 312x    frame=19119 fps=19118 q=-1.0 size=  346368kB time=00:05:18.63 bitrate=8905.0kbits/s speed= 319x    frame=21734 fps=19161 q=-1.0 Lsize=  394727kB time=00:06:02.21 bitrate=8927.2kbits/s speed= 319x    
+video:386972kB audio:7075kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.172385%
+Wed Apr 23 06:52:32 UTC 2025: Conversion successful. Removing original .flv file.
+Wed Apr 23 06:52:32 UTC 2025: Watching for new .flv files
+Wed Apr 23 06:52:40 UTC 2025: Starting FLV to MP4 conversion service
+Wed Apr 23 06:52:40 UTC 2025: Processing existing .flv files
+Wed Apr 23 06:52:40 UTC 2025: Converting /var/recordings/test-1745315704.flv to /var/recordings/test-1745315704.mp4
+ffmpeg version 5.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 11.2.1 (Alpine 11.2.1_git20220219) 20220219
+  configuration: --prefix=/usr/local --enable-version3 --enable-gpl --enable-nonfree --enable-small --enable-libmp3lame --enable-libx264 --enable-libx265 --enable-libvpx --enable-libtheora --enable-libvorbis --enable-libopus --enable-libfdk-aac --enable-libass --enable-libwebp --enable-postproc --enable-libfreetype --enable-openssl --disable-debug --disable-doc --disable-ffplay --extra-libs='-lpthread -lm'
+  libavutil      57. 28.100 / 57. 28.100
+  libavcodec     59. 37.100 / 59. 37.100
+  libavformat    59. 27.100 / 59. 27.100
+  libavdevice    59.  7.100 / 59.  7.100
+  libavfilter     8. 44.100 /  8. 44.100
+  libswscale      6.  7.100 /  6.  7.100
+  libswresample   4.  7.100 /  4.  7.100
+  libpostproc    56.  6.100 / 56.  6.100
+Input #0, flv, from '/var/recordings/test-1745315704.flv':
+  Duration: 00:00:29.35, start: 0.033000, bitrate: 8913 kb/s
+  Stream #0:0: Audio: aac, 48000 Hz, stereo, fltp
+  Stream #0:1: Video: h264, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 62.50 fps, 60 tbr, 1k tbn
+Output #0, mp4, to '/var/recordings/test-1745315704.mp4':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 62.50 fps, 60 tbr, 16k tbn
+  Stream #0:1: Audio: aac (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+  Stream #0:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    frame= 1253 fps=0.0 q=-1.0 size=   22784kB time=00:00:20.84 bitrate=8955.1kbits/s speed=41.5x    frame= 1761 fps=0.0 q=-1.0 Lsize=   31929kB time=00:00:29.33 bitrate=8916.9kbits/s speed=37.8x    
+video:31300kB audio:573kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.176751%
+Wed Apr 23 06:52:41 UTC 2025: Conversion successful. Removing original .flv file.
+Wed Apr 23 06:52:41 UTC 2025: Watching for new .flv files
+Wed Apr 23 06:53:28 UTC 2025: Starting FLV to MP4 conversion service
+Wed Apr 23 06:53:28 UTC 2025: Processing existing .flv files
+Wed Apr 23 06:53:28 UTC 2025: Watching for new .flv files
+Wed Apr 23 06:54:00 UTC 2025: Starting FLV to MP4 conversion service
+Wed Apr 23 06:54:00 UTC 2025: Processing existing .flv files
+Wed Apr 23 06:54:00 UTC 2025: Watching for new .flv files
+Thu Apr 24 07:10:25 UTC 2025: Starting FLV to MP4 conversion service
+Thu Apr 24 07:10:25 UTC 2025: Processing existing .flv files
+Thu Apr 24 07:10:25 UTC 2025: Watching for new .flv files
+Mon Apr 28 02:23:57 UTC 2025: Starting FLV to MP4 conversion service
+Mon Apr 28 02:23:57 UTC 2025: Processing existing .flv files
+Mon Apr 28 02:23:57 UTC 2025: Watching for new .flv files
+                                                                                                                                                                                            Mon Apr 28 08:10:58 UTC 2025: Starting FLV to MP4 conversion service
+Mon Apr 28 08:10:58 UTC 2025: Processing existing .flv files
+Mon Apr 28 08:10:58 UTC 2025: Watching for new .flv files
+Mon Apr 28 08:38:27 UTC 2025: Starting FLV to MP4 conversion service
+Mon Apr 28 08:38:27 UTC 2025: Processing existing .flv files
+Mon Apr 28 08:38:27 UTC 2025: Watching for new .flv files
+Mon Apr 28 09:29:29 UTC 2025: Starting FLV to MP4 conversion service
+Mon Apr 28 09:29:29 UTC 2025: Processing existing .flv files
+Mon Apr 28 09:29:29 UTC 2025: Watching for new .flv files
+Tue Apr 29 02:51:51 UTC 2025: Starting FLV to MP4 conversion service
+Tue Apr 29 02:51:51 UTC 2025: Processing existing .flv files
+Tue Apr 29 02:51:51 UTC 2025: Watching for new .flv files
